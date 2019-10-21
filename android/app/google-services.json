@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "229516046808",
+    "firebase_url": "https://push-notification-bd468.firebaseio.com",
+    "project_id": "push-notification-bd468",
+    "storage_bucket": "push-notification-bd468.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229516046808:android:f961b300ddb5741a08c2ad",
+        "android_client_info": {
+          "package_name": "com.example.basic_flutter_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "229516046808-bqt0nq21nofl9a571f53p9ui2af5jif0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCflI0Fd_Bt30JjwgBYLA9ZRq1Kb-0Eyxs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "229516046808-bqt0nq21nofl9a571f53p9ui2af5jif0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229516046808:android:a69a862d0ce59d3008c2ad",
+        "android_client_info": {
+          "package_name": "com.example.belajarandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "229516046808-m83i69sg4g5pgu35cm3rm0oj340ts43b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.belajarandroid",
+            "certificate_hash": "89c4afe9254a7da75ca59a8d3872c0695faf2b72"
+          }
+        },
+        {
+          "client_id": "229516046808-bqt0nq21nofl9a571f53p9ui2af5jif0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCflI0Fd_Bt30JjwgBYLA9ZRq1Kb-0Eyxs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "229516046808-bqt0nq21nofl9a571f53p9ui2af5jif0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
