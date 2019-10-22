@@ -23,6 +23,7 @@ dependencies:
   kiwi: ^0.2.0
   firebase_core: ^0.4.0+9
   cloud_firestore: ^0.12.9+5
+  firebase_crashlytics: ^0.1.0+3
   flutter:
     sdk: flutter
 
