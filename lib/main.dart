@@ -1,6 +1,8 @@
 import 'package:basic_flutter_app/db/database_migration.dart';
 import 'package:basic_flutter_app/page/main/bloc/main_page_bloc.dart';
 import 'package:basic_flutter_app/page/main/main_page.dart';
+import 'package:basic_flutter_app/page/second_page/bloc/second_page_bloc.dart';
+import 'package:basic_flutter_app/page/second_page/second_page.dart';
 import 'package:basic_flutter_app/utility/database/database_helper.dart';
 import 'package:basic_flutter_app/utility/injector/injector.dart';
 import 'package:firebase_crashlytics/firebase_crashlytics.dart';
@@ -66,12 +68,19 @@ class InitApp extends StatelessWidget {
               ),
             ),
           ),
-          body: BlocProvider<MainPageBloc>(
-            builder: (context) => MainPageBloc(),
+          body: MultiBlocProvider(
+            providers: <BlocProvider>[
+              BlocProvider<MainPageBloc>(
+                builder: (BuildContext context) => MainPageBloc(),
+              ),
+              BlocProvider<SecondPageBloc>(
+                builder: (BuildContext context) => SecondPageBloc(),
+              ),
+            ],
             child: FutureBuilder(
               future: init(),
               builder: (context, snapshot) {
-                return MainPage();
+                return SecondPage();
               },
             ),
           ),
